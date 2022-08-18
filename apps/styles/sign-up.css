@@ -1,0 +1,54 @@
+.sign-up-container{
+    margin: 40px;
+    margin-top: 100px;
+}
+
+.sign-up-container input{
+    padding: 15px;
+    width: 88%;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: transparent;
+}
+
+.sign-up-container ::placeholder{
+    color: black;
+}
+
+.sign-up-container input[type='button']{
+    width: 100%;
+}
+
+.field-wrapper{
+    margin-top: 110px;
+}
+
+footer{
+    margin-left: 40px;
+    margin-right: 40px
+}
+
+.hide-page{
+    display: none;
+}
+
+.user-details-wrapper{
+    margin: 40px;
+    margin-top: 100px;
+}
+
+.user-fields{
+    width: 70px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.user-details-wrapper input[type='tel']{
+    width: 185px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
