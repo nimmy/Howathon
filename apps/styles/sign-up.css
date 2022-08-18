@@ -27,7 +27,8 @@
 
 footer{
     margin-left: 40px;
-    margin-right: 40px
+    margin-right: 40px;
+    display: flex;
 }
 
 .hide-page{
@@ -37,6 +38,11 @@ footer{
 .user-details-wrapper{
     margin: 40px;
     margin-top: 100px;
+    margin-bottom: 180px;
+}
+
+.user-details-wrapper form{
+    margin-left: 40px;
 }
 
 .user-fields{
@@ -51,4 +57,8 @@ footer{
     height: 35px;
     border: 1px solid black;
     border-radius: 10px;
+}
+
+.verify-btn{
+    margin-top: 15px;
 }
