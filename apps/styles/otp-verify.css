@@ -1,0 +1,34 @@
+.otp-page-wrapper{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.back-btn{
+    color: black;
+}
+
+input[type='text']{
+    width: 40px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 14px;
+}
+
+form{
+    margin-left: 40px;
+}
+
+
+.dynamic-footer{
+    margin-left: 40px;
+    padding-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 290px;
+}
+
+.next-btn{
+    margin-top: 14px;
+}
