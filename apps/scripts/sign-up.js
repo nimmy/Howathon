@@ -13,4 +13,5 @@ function redirect(){
 function landingPage(){
     getEl.classList.remove(togglePage);
     getNextEl.classList.add(togglePage)
+    getVerifyBtn.classList.add(togglePage);
 }

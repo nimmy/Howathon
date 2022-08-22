@@ -16,23 +16,20 @@
             <form>
                 <div>
                 <h1>
-                    Let's Sign Up
+                    Let's Sign <br /> You Up
                 </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consec- tetuer adipiscing elit, sed diam</p>
                 </div>
                 <div class="field-wrapper">
-                    <div>
-                        <input type="email" id="emial" name="email" placeholder="Enter Email">
-                    </div>
-                    <div>
-                        <input type="button" value="Use Phone Number" onclick="redirect()">
+                    <div class="input-btn">
+                        <input type="text" id="emial" name="email" placeholder="Enter Email">
+                        <input type="button" value="Use Phone Number" class="btn" onclick="redirect()">
                     </div>
                 </div>
             </form>
         </div>
         <div class="user-details-wrapper hide-page">
-            <div class="back-btn" onclick="landingPage()">Back</div>
+            <div class="back-btn" onclick="landingPage()"><img src="../images/line-angle-right-icon.svg" alt="Privacy"/></div>
             <form>
                 <h1>Whats Your Number</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -43,17 +40,14 @@
                 <input type="tel" name="pnum" maxlength="10">
             </form>
         </div>
-        <footer>
-            <p>
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <footer class="sign-up">
+            <img src="../images/lock-icon.svg" alt="Privacy"/> 
+            <p class="disclamer">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
             </p>
-            <div>
-                <input type="button" value="Verify" class="verify-btn hide-page">
-            </div>
+            <button class="verify-btn hide-page"><img src="../images/line-angle-right-icon.svg" alt="Privacy"/> </button>
         </footer>
         
-        <script src="/apps/scripts/sign-up.js" async defer></script>
+        <script src="../scripts/sign-up.js" async defer></script>
     </body>
 </html>
