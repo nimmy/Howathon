@@ -14,3 +14,7 @@ function landingPage(){
     getEl.classList.remove(togglePage);
     getNextEl.classList.add(togglePage)
 }
+
+function sendOTP(){
+    window.location.href ="otp-verification.html";
+}
