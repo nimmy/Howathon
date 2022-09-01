@@ -1,0 +1,37 @@
+
+.auth {
+    &-header {
+        margin: 40px;
+        margin-top: 100px;
+        h2 {
+            font-size: 36px;
+            line-height: 36px;
+        }
+    }
+    &-section {
+        margin-top: 40%;
+    }
+    &-link {
+        width: 100%;
+        padding: 20px 0;
+        margin: 3% auto;
+        border: 1px solid black;
+        border-radius: 30px;
+        text-align: center;
+        background: transparent;
+    }
+    &-footer {
+        position: absolute;
+        bottom: 40px;
+        margin: 0  30px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex: 0 0 100%;
+
+        p { 
+            font-size: 11px;
+            margin: 0 10px;
+        }
+    }
+}

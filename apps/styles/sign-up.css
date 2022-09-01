@@ -85,13 +85,12 @@ footer.sign-up img {
 }
 .verify-btn{
     margin-top: 15px;
-    width: 45px;
-    height: 45px;
-    background-size: cover;
-    border: 0;
-    border-radius: 22px;
-}
-footer.sign-up .verify-btn img{ 
-    margin: 0;
-    width: 32px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: black;
+    color: #fff;
+    padding-top: 4px;
+    padding-left: 7px;
+    padding-bottom: 2px;
+    font-weight: 600;
 }

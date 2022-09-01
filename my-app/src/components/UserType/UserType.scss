@@ -1,0 +1,54 @@
+
+  .radio-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .radio-entity {
+    border: 1px solid black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  .radio-entity > .profile-icon, .radio-entity > .profile-icon::before {
+    width: 25%;
+    font-size: 70px;
+  }
+  
+  .radio-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .radio-label {
+    width: 60%;
+    margin: 5% 0 0 3%;
+  }
+  
+  .radio-label > p {
+    margin: 0 4px 0 0;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  
+  input[type="radio"] {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+h2 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
