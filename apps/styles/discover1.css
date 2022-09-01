@@ -1,0 +1,143 @@
+footer > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    position: fixed;
+    bottom: -3%;
+    padding-top: 5%;
+    padding-bottom : 5%;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+.basic-logo{
+    height: 3rem;
+    width : 3rem;
+}
+body{
+    margin: 0;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    padding-bottom: 2%;
+    padding-top: 5%;
+    margin-left: 15%;
+}
+
+.nav-item {
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+.nav-item > a{
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+}
+.nav-section{
+    position: fixed;
+    margin-top: 200px;
+    background-color: white;
+    width: 100%;
+    z-index:10;
+}
+
+.header-container{
+    display: flex;
+    margin: 0  30px 0  0;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0;
+    height : 200px;
+    z-index:10;
+}
+
+.header-container > .basic-logo{
+    margin-top: 8%;
+}
+.banner-container{
+    position: relative;
+}
+.banner-container > img{
+    width: 70%;
+    border-radius: 30px;
+    margin-left: 15%;
+}
+.banner-container > p{
+    width: 60%;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 5%;
+    margin-left: 15%;
+    position: relative;
+    bottom: 92px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+.banner-container{
+    position: relative;
+    top: 400px;
+}
+.notification{
+    height: 300px;
+    width : 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+
+}
+
+.notification > img{
+    border-radius: 100%;
+    height: 300px;
+}
+
+.notification-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width : 75%
+}
+
+.notification-header{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.notication-content{
+    font-size: 2rem;
+}
+
+.notifications-container{
+    top: 400px;
+    position: relative;
+    margin-bottom: 650px;
+}
+
+.footer{
+    height: 300px;
+}
+
+footer > ul{
+    background-color: white;
+    height: 100px;
+}
+
+footer > ul > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > ul > li >span{
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-left: 10px;
+}
