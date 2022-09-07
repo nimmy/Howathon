@@ -1,0 +1,15 @@
+.schedule {
+    width: 80%;
+    border: 1px solid #000;
+    margin: 0 auto;
+    transform: translate(0, 20%);
+    padding: 10%;
+    border-radius: 30px;
+}
+.schedule-inline  {
+    display: flex;
+    align-items: center;
+    i {
+        margin: 10px;
+    }
+}

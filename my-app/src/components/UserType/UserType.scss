@@ -1,11 +1,4 @@
-body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
-.main-container {
-    padding: 1rem 1rem;
-  }
-  
   .radio-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -21,13 +14,14 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 15px 5px;
+    padding: 0 10px;
     border-radius: 10px;
-    margin: 5px 0;
+    margin: 10px 0;
   }
   
-  .radio-entity > img {
+  .radio-entity > .profile-icon, .radio-entity > .profile-icon::before {
     width: 25%;
+    font-size: 70px;
   }
   
   .radio-title {
@@ -38,17 +32,23 @@ body {
   
   .radio-label {
     width: 60%;
-    margin: 5% 0 0 5%;
+    margin: 5% 0 0 3%;
   }
   
   .radio-label > p {
-    margin: 0;
+    margin: 0 4px 0 0;
     margin-top: 5px;
-    font-size: 0.8rem;
+    font-size: 12px;
   }
   
   input[type="radio"] {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
   }
-  /*# sourceMappingURL=23.css.map */
+
+h2 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}

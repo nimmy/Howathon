@@ -1,0 +1,32 @@
+.nav-link-Footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    z-index: 2;
+    ul {
+        background-color: white;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        list-style: none;
+        justify-content: space-around;
+        padding-bottom: 5%;
+        border: 1px solid black;
+        border-radius: 30px;
+        padding-top: 10px;
+    }
+    
+    ul > li {
+        align-items: center;
+        list-style-type: none;
+        width: 25%;
+        text-align: center;
+    }
+    
+    ul > li >span{
+        font-size: 12px;
+        margin: 0 auto;
+    }
+}

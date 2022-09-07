@@ -1,0 +1,30 @@
+
+
+.btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.request-btn{
+    border-radius: 20px;
+    padding: 10px 32px;
+    border: 1px solid gray;
+}
+
+.request-btn:hover{
+    border: 1px solid black;
+}
+
+.request-wrapper{
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 12px;
+    margin: 20px auto;
+    font-size: 12px;
+    p {
+        margin: 0;
+    }
+    & > div  {
+        color: #888888;
+    }
+}

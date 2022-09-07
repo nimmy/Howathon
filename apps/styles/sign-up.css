@@ -1,24 +1,23 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .sign-up-container{
     margin: 40px;
     margin-top: 100px;
 }
 
-.sign-up-container input{
-    padding: 15px;
-    width: 88%;
-    border: 2px solid black;
-    border-radius: 25px;
-    margin-bottom: 10px;
+.sign-up-container input, .sign-up-container button.btn{
+    width: 100%;
+    padding: 20px 0;
+    margin: 3% auto;
+    border: 1px solid black;
+    border-radius: 30px;
     text-align: center;
     background: transparent;
 }
 
 .sign-up-container ::placeholder{
     color: black;
-}
-
-.sign-up-container input[type='button']{
-    width: 100%;
 }
 
 .field-wrapper{
@@ -31,6 +30,31 @@ footer{
     display: flex;
 }
 
+footer.sign-up {
+    position: absolute;
+    bottom: 40px;
+    margin: 0  30px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex: 0 0 100%;
+}
+
+/* .disclamer.sign-up {
+    
+} */
+
+footer.sign-up img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.disclamer {
+    font-size: 11px;
+    margin: 0 10px;
+}
+
 .hide-page{
     display: none;
 }
@@ -39,10 +63,6 @@ footer{
     margin: 40px;
     margin-top: 100px;
     margin-bottom: 180px;
-}
-
-.user-details-wrapper form{
-    margin-left: 40px;
 }
 
 .user-fields{
@@ -58,7 +78,11 @@ footer{
     border: 1px solid black;
     border-radius: 10px;
 }
-
+.back-btn img {
+    width: 20px;
+    height: 20px;
+    transform: rotate(180deg);
+}
 .verify-btn{
     margin-top: 15px;
     border: 2px solid black;
