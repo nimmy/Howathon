@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js"
+        integrity="sha512-8Y8eGK92dzouwpROIppwr+0kPauu0qqtnzZZNEF8Pat5tuRNJxJXCkbQfJ0HlUG3y1HB3z18CSKmUo7i2zcPpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="../styles/edit-profile.css">
+</head>
+
+<body>
+    <main class="main-container">
+        <form action="">
+            <img src="../images/user.png" class="align-self-center" /><br>
+            <label class="align-self-center">Change photo*</label><br>
+            <textarea name="about" id="about" cols="40" rows="4"
+                placeholder="Write a little bit about you"></textarea><br>
+            <textarea name="supportTypes" id="supportTypes" cols="40" rows="8"
+                placeholder="Type the kind of people/communities you want of support and seperate it with a comma &#10;Example: &#10;lgbtq, blind, old"></textarea><br>
+            <input type="tel" value="mobile" placeholder="0000000000"><br>
+            <input type="email" value="email" placeholder="Email Address"><br>
+            <fieldset>
+                <legend>Date of birth*</legend>
+                <textarea name="dob" id="dob" cols="30" rows="1" placeholder="mm/dd/yyyy"></textarea>
+            </fieldset><br>
+            <select name="gender" id="genderSelect">
+                <option value="">Gender* (We do not discriminate)</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select><br>
+            <select name="maritalStatus" id="maritalStatus">
+                <option value="">Marital status</option>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+            </select><br>
+            <input type="text" placeholder="Pincode*"><br>
+            <input type="text" placeholder="City"><br>
+            <input type="text" placeholder="State"><br>
+            <input type="text" placeholder="Address"><br>
+            <input type="text" placeholder="Covid vaccine*"><br>
+            <strong>Verification</strong><br>
+            <label>Aadhar/Ration/PAN/Driving License/Voters*</label><br>
+            <div class="upload-options">
+                <button>
+                    <img src="../images/upload-icon.png" alt=""><br>
+                    Front
+                </button>
+                <button>
+                    <img src="../images/upload-icon.png" alt=""><br>
+                    Back
+                </button>
+            </div><br>
+            <div>
+                <input type="checkbox" name="" id="loremCheckbox">
+                <label for="loremCheckbox">Lorem ipsum dolor sit amet consectetur adipisicing elit</label>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
