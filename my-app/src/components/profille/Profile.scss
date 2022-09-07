@@ -1,0 +1,127 @@
+
+.banner-container {
+    img {
+        width: 100%;
+        border-radius: 30px;
+    }
+}
+.banner-details{
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 5%;
+    position: relative;
+    bottom: 92px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+.banner-container{
+    position: relative;
+    top: 30px;
+    z-index:0;
+}
+.br-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+}
+.br-2,.br-3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.br-2,.br-3  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.br-1, .br-2, .br-3{
+    margin: 0;
+}
+
+.banner-details > p > span > img{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.feature-wrapper{
+    margin-bottom: 80px;
+}
+.feature-container{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 40px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 20px 0;
+}
+
+.fr-1{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.fr-2{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.fr-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fr-1 > .basic-logo{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.fr-2 > p {
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.fr-sm-txt{
+    font-size: 11px;
+    opacity : 70%;
+}
+.event-row-1, .event-row-2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.events > span > img {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 20px;
+}
+
+.events{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.refresh-logo{
+    position: fixed;
+    z-index:7;
+    bottom : 15%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.refresh-logo > img{
+    height: 30px;
+    width: 30px;
+}

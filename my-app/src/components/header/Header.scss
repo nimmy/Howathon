@@ -1,0 +1,20 @@
+.header {
+    &-section {
+        margin: 20px;
+        display: flex;
+        align-items: center;
+    }
+    &-heading {
+        font-size: 20px;
+        width: 80%;
+        margin: 0;
+    }
+    &-notification {
+        width: 10%;
+        text-align: center;
+    }
+    &-back {
+        width: 10%;
+        text-align: left;
+    }
+}

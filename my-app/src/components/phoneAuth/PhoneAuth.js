@@ -12,7 +12,8 @@ import {
   } from 'firebase/auth';
   import { auth } from  '../../firebase';
   import './PhoneAuth.scss';
-  import { Link, Navigate } from "react-router-dom";
+  import { Link, Navigate, useNavigate } from "react-router-dom";
+
 
 
 const PhoneAuth = ()  => {
@@ -21,6 +22,10 @@ const PhoneAuth = ()  => {
     const [error, setError] = useState("");
     const [flag, setFlag] = useState(false);
     const [confirmObj, setConfirmObj] = useState('');
+    const navigate = useNavigate();
+    const navigateToWishCreate = () => {
+        navigate('/UserType');
+    };
     
 const getOtp = async (e) =>  {
     e.preventDefault();
@@ -42,7 +47,7 @@ const verifyOtp = async (e) => {
     setError('');
     if (otp === ' ' || otp  ===null) return;
         await confirmObj.confirm(otp);
-        <Navigate to="/UserType" replace={true} />
+        navigateToWishCreate();
     try {
 
     }

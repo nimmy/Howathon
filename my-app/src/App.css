@@ -80,3 +80,45 @@ body  {
   margin-top: 4px;
   font-weight: bold;;
 }
+
+.inside-container {
+  margin: 0 20px;
+  /* z-index: -1; */
+  /* position: relative; */
+}
+
+.inside-container .nav-tabs .nav-link, .nav-tabs {
+  border: 0;
+}
+
+.inside-container .nav-item {
+  width: 50%;
+}
+
+.inside-container .nav-item button {
+  width: 100%;
+  margin: 0  auto;
+}
+
+.inside-container .tab-content {
+  border-top: 1px solid #000;
+}
+
+.nav-link {
+  color: rgba(73,80,87,1);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active  {
+  color: rgba(73,80,87,1);
+  font-weight: bold;
+}
+
+.normal-submit {
+  margin-top: 15px;
+  height: 45px;
+  background-size: cover;
+  border: 0;
+  border-radius: 22px;
+  display: block;
+  min-width: 100%;
+}
